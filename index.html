@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site para mostrar a história da FEB na Segunda Guerra Mundial">
+    <meta name="keywords" content="segunda guerra mundial, aliados, força expedicionária brasileira">
+    <meta name="author" content="Gabriel Deluchi">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icone.png" type="image/x-icon">
+    
+    <title>Força Expedicionária Brasileira</title>
+</head>
+<body>
+    
+    <nav>
+        <div>
+            <input type="radio" name="contraste" class="buttons_menu" id="contraste_normal" value="normal"  onchange="changeFundo()"checked>
+            <input type="radio" name="contraste" class="buttons_menu" id="contraste_branco" value="branco" onchange="changeFundo()">
+            <input type="checkbox" name="som" id="sound_checkbox" class="buttons_menu">
+            <label class="label label1 fas fa-eye " for="contraste_normal" id="label_normal"></label>
+            <label class="label label2 fas fa-sun " for="contraste_branco" id="label_branco"></label>
+            <label class="label label4 fas" for="sound_checkbox" id="label_sound"></label>
+
+        </div>
+        
+        <div class="img_logo">
+            <a><img src="img/feb_logo.png" alt="FEB" onclick="playFEB()"></a>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li onclick="irConteudo()">Conteúdo</li>
+                <li onclick="irRodape()">Rodapé</li>
+            </ul>
+        </div>
+    </nav> 
+    <header>
+
+        <div class="img_header_back">
+            <img src="img/Força-Expedicionária-Brasileira.jpg" alt="Imagem da Segunda Guerra Mundial">
+            <div class="divider"></div>
+            <div class="linhas"></div>
+        </div>
+
+    </header>
+    <main class="estrutura">
+        <div class="titulo_header" id="titulo_header">
+            <div>
+                <p class="first">Força Expedionária</p>
+                <p class="second">Brasileira</p>
+            </div>
+        </div>
+
+        <div class="item sidenav"></div>
+        <div class="item content">
+            <p>“Nunca é tarde para lembrarmos o peso e o significado do grandes guerreiros que participaram ferozmente na Segunda Guerra Mundial. Estes bravos combatentes que atuaram em território europeu contribuíram fortemente para a propagação e consolidação das Forças Armadas”.</p>
+            <img src="img/Força-Expedicionária-Brasileira.jpg" alt="Imagem de Soldados da FEB" class="imgs_content">
+
+            <h1 class="title_content">Campanha</h1>
+
+            <p>A Famosa abreviatura FEB vem do nome Força Expedicionária Brasileira, força militar que participou da Segunda Guerra Mundial. Foram cerca de 25 mil militares da arma de Infantaria empenhados nesta ocasião.
+                A história da FEB nos revela muitas curiosidades, por exemplo, como uma força terrestre brasileira participaria de uma Guerra na Europa?
+                De fato, a valentia e persistência desses guerreiros foi essencial para levá-los à vitória.
+                O Brasil estava envolvido na Segunda Guerra Mundial sob o governo de Getúlio Vargas, porém ainda estava neutra a participação das tropas brasileiras em 1939.
+                No entanto, em 1942 os Estados Unidos(EUA) ameaçou invadir terras brasileira se o governo brasileiro não manifestasse interesse em se aliar a eles, foi então que surgiu a FEB.</p>
+
+            <div class="tecs_imgs">
+                <img src="img/Distintivo_da_FEB.png" alt="Imagem de um dos distintivos utilizados pela feb" class="imgs_content">
+                <img src="img/soldados_feb.png" alt="Imagem do mapa da campanha do Brasil na segunda guerra mundial na Itália" class="imgs_content">
+            </div>
+
+            <h1 class="title_content">A Guerra</h1>
+
+            <p>Estavam envolvidos militares de várias especialização do quadro de infantaria.
+                Podemos citar a Companhia de Fuzileiros, artilharia conduzida por caminhões, engenheiros militares, soldados de saúde, combatentes da Cavalaria e o Esquadrão de Reconhecimento.
+                No comando das tropas brasileiras estava o General Mascarenhas de Morais, Zenóbio da Costa e alguns oficiais de seu estado-maior.
+                Em setembro de 1944 a FEB entra para o combate no vale do rio Serchio, na Itália. O Brasil, ao lado de soldados norte-americanos estava enfrentando um exército de soldados da Alemanha sob o comando de Adolf Hitler.
+                As condições climáticas naquela época não foram favoráveis as tropas brasileiras, pois os militares tiveram de enfrentar temperaturas de até 20° graus negativo.
+                Entretanto, em março de 1945, o Brasil obteve a vitória em Monte Castello e Castelnuovo, enquanto as tropas americanas estavam atuando em Belvedere e Della Torraccia.
+                Foram meses de combate contra a força inimiga. Os militares brasileiros passaram por vários terrenos europeus, tais como: Montese, Monte Castello Belvedere, Della Torraccia, entre vários outros.
+                Infelizmente em meio aos confrontos o Brasil teve muitas perdas, foram 454 combatentes mortos. 
+                As tropas brasileiras tiveram um grau de participação na guerra muito favorável, pois a FEB aprisionou aproximadamente vinte mil soldados inimigos e manteve a moral erguida durante todo o confronto.       
+                A Força Aérea Brasileira (FAB) esteve presente neste momento que aconteceu na Itália. Os esquadrões 1ª E.L.O (Esquadrilha de Ligação e Observação) e o 1º grupo de caça foram os protagonista da FAB.</p>
+
+                <div class="tecs_imgs">
+                    <img src="img/feb_italy.jpeg" alt="Imagem do mapa usado na campanha do Brasil na Itália" class="img_medalha">
+                </div>
+                
+            </div>
+        <div class="item coluna1"></div>
+
+    </main>
+    <footer>
+        <div class="footer_content">
+            <span>Created by: Gabriel Deluchi</span>
+            <span>© 2023 Direitos autorais</span>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
