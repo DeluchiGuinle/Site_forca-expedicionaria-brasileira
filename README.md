@@ -1,2 +1,2 @@
 # Site_forca-expedicionaria-brasileira
- Resumo sobre a participação da Força Expedicionária Brasileira durante a Segunda Guerra Mundial.
+ Este site foi criado para um trabalho integrador de Hitória e Hardware, sobre a história da participação da Força Expedicionária Brasileira (FEB).
